@@ -596,6 +596,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 16px;
 
 }
 .modal-form {
@@ -638,8 +639,7 @@ ul {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.error {
-}
+
 .modal-form-comment {
     font-weight: 400;
     font-size: 12px;
