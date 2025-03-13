@@ -507,10 +507,146 @@
             </li>
           </ul>
         </div>
-      </div>
-      <!--#region Modal-->
+        <div class="footer-subscribe-wrapper">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form" name="subscribe">
+            <label class="footer-subscribe-label">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="email-field"
+                placeholder="E-mail"
+              />
+            </label>
+            <button
+              type="submit"
+              name="email-subscribe-button"
+              class="footer-subscribe-button">
+              Subscribe
+              <svg
+                class="footer-subscribe-icon"
+                aria-label="icon-send"
+                width="24"
+                height="24" >
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
 
-      <div class="backdrop is-open">
+    
+
+      
+      </div>
+      
+    </footer>
+   <!--#region Modal-->
+  
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button
+          class="modal-btn"
+          type="button"
+          aria-label="Modal close button"
+          data-modal-close
+        >
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+
+
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+        
+<form  class="modal-form" name="order" autocapitalize="on">
+
+<div class="modal-form-field">
+  <label class="modal-form-label" for="user-name">Name</label>
+  <div class="modal-form-wrapper">
+    <input class="modal-form-input" 
+    type="text" 
+    name="user-name" 
+    id="name" required
+    />
+    <svg class="modal-form-icon" width="24" height="18">
+      <use href="./images/icons.svg#person"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="modal-form-field">
+  <label class="modal-form-label" for="user-phone">Phone</label>
+  <div class="modal-form-wrapper">
+    <input class="modal-form-input" 
+    type="tel" 
+    name="user-phone" 
+    id="name" required
+    />
+    <svg class="modal-form-icon" width="24" height="18">
+      <use href="./images/icons.svg#phone"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="modal-form-field">
+  <label class="modal-form-label" for="user-email">Email</label>
+  <div class="modal-form-wrapper">
+    <input class="modal-form-input" 
+    type="email" 
+    name="user-email" 
+    id="name" required
+    />
+    <svg class="modal-form-icon" width="24" height="18">
+      <use href="./images/icons.svg#email"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="modal-form-field">
+  <label class="modal-form-label" for="user-phone">Phone</label>
+  <div class="modal-form-wrapper">
+    <input class="modal-form-input" 
+    type="tel" 
+    name="user-phone" 
+    id="name" required
+    />
+    <svg class="modal-form-icon" width="24" height="18">
+      <use href="./images/icons.svg#phone"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="modal-form-field">
+  <label class="modal-form-label" for="user-comment">Comment</label>
+  
+   <textarea 
+   name="user-comment"
+   id="user-comment"
+    cols="" rows="" 
+    placeholder="Text input"></textarea> 
+  
+</div>
+<!--Checkbox-->
+
+
+
+<button class="modal-submit-btn" type="submit" >Send</button>
+
+
+<!--#endregion Modal-->
+</form>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+<!--<div class="backdrop is-open">
         <div class="modal">
           <button
             class="modal-btn"
@@ -610,13 +746,8 @@
               >
             </div>
 
-            <!-- Checkbox -->
+            Checkbox 
             <button class="modal-button-submit" type="submit">Send</button>
           </form>
         </div>
       </div>
-
-      <!--end#region Modal-->
-    </footer>
-  </body>
-</html>
