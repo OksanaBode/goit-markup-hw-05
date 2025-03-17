@@ -688,6 +688,7 @@ ul {
 
 .textarea {
   resize: none;
+
 }
 
 .modal-form {
@@ -741,9 +742,11 @@ ul {
   fill: rgb(var(--cl-brand));
 }
 
-.modal-form-wrapper {margin-bottom: 16px; 
+.modal-form-wrapper {
 }
-  
+
+.comment-field {margin-bottom: 16px; 
+}
 .modal-form-comment {
   font-weight: 400;
   font-size: 12px;
